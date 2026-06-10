@@ -5,7 +5,11 @@ using namespace std;
 int main(){
 
     char N[] = "153";
-    cin >> N;
+    int total = 0;
+    for (int i = 0; N[i] != '\0';i++) {
+        total += i;
+    }
+    cout << total << endl;
 
 
     return 0;
