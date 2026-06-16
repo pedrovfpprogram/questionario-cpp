@@ -10,11 +10,11 @@ int main(){
         if (A%100 != 0) {
             if (A%400 != 0) {
                 cout << "BISSEXTO" << endl;
+                return 0;
             }
         }
-    } else {
-        cout << "COMUM" << endl;
     }
+    cout << "COMUM" << endl;
 
     return 0;
 }

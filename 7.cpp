@@ -1,16 +1,14 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
-#include "potencia.hpp"
 
-int main(){
-
-    char N[] = "153";
-    int total = 0;
-    for (int i = 0; N[i] != '\0';i++) {
-        total += i;
+int main() {
+    long long n;
+    if (cin >> n) {
+        string s = to_string(n);
+        cout << s.length() << endl;
     }
-    cout << total << endl;
-
 
     return 0;
 }
